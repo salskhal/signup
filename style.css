@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url("./images/bg-intro-desktop.png") hsl(0, 100%, 74%);
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 80vh;
+    margin-top: 10vh;  
+}
+
+.display {
+    display: flex;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 90vh;
+        margin-top: 5%;
+    }
+
+    .display {
+        flex-direction: column;
+    }
+}
+
+
+.form {
+    width: 55%;
+    min-height: 100%;
+}
+
+.learn {
+    color: white;
+    width: 45%;
+    height: 100%;
+}
+@media screen and (max-width: 600px) {
+    .learn{
+        width: 90%;
+        height: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: center;
+    }
+
+    .form {
+        width: 90%;
+        min-height: 60%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+.watch{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.see{
+    font-size: 16px;
+    opacity: 80%;
+    margin-top: -24px;
+}
+
+@media screen and (max-width: 600px){
+    .watch{
+        font-size: 30px;
+        margin-top: 50px;
+    }
+
+    .see{
+        font-size: 15px;
+    }
+}
+
+
+.try{
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    height: 50px;
+    background: hsl(248, 32%, 49%);
+    position: relative;
+}
+.again{
+    border-radius: 5px;
+    color: lightgray;
+}
+
+@media screen and (max-width: 600px){
+    .try {
+        text-align: center;
+        font-size: 18px;
+        height: 60px;
+        width: 100%;
+        margin: 0;
+    }
+    .try p{
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+.bold{
+    font-weight: 800; 
+    color: white;
+}
+
+
+.form-input{
+    width: 80%;
+    background: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+@media screen and (max-width: 600px){
+    .form-input{
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+    }
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-bottom: 20px;
+}
+
+
+input:focus{
+    outline: none;
+    border-color: darkblue;
+    border-width: 1.7px;
+}
+
+.firstname{
+    padding-top: 30px;
+}
+
+button{
+    width: 80%;
+    height: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: hsl(154, 59%, 51%);
+    border-radius: 5px;
+    border: none;
+}
+
