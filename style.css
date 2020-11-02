@@ -138,9 +138,9 @@ input{
     height: 40px;
     margin-left: 10%;
     margin-right: 10%;
-    border-radius: 5px;
-    border-width: 1px;
     margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 
@@ -162,5 +162,27 @@ button{
     background: hsl(154, 59%, 51%);
     border-radius: 5px;
     border: none;
+    color: white;
 }
 
+.terms{
+    font-size: 10px;
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.terms p{
+    color: gray;
+}
+.services{
+    color: orangered;
+}
+
+@media screen and (max-width: 600px){
+    .terms{
+        font-size: 12px;
+    }
+}
